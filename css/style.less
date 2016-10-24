@@ -366,7 +366,7 @@ main {
 
 		input {
 			margin-right: 27px;
-			padding: 12px 58px 12px 27px;
+			padding: 14px 58px 13px 27px;
 			text-transform: uppercase;
 			font-family: 'Exo', sans-serif;
 			font-size: 16px;
@@ -384,7 +384,8 @@ main {
 			color: #f6f5f3;
 			background: #ff6d6d;
 			border-radius: 3px;
-			padding: 12px 93px;
+			padding: 14px 95px;
+			border: none;
 		}
 
 		.text-terms {
@@ -403,6 +404,7 @@ main {
 
 footer {
 	background: url(../img/Rectangle-2.jpg) no-repeat;
+	padding-bottom: 74px;
 
 	.about-company {
 		float: left;
@@ -422,6 +424,8 @@ footer {
 	.support {
 		float: left;
 		width: 97px;
+		margin-top: 59px;
+		margin-left: 31px;
 
 		h3 {
 			font-family: 'Exo', sans-serif;
@@ -429,16 +433,23 @@ footer {
 			line-height: 50px;
 			color: #282828;
 			font-weight: 500;
+			letter-spacing: 1px;
+			margin-bottom: 0;
 		}
 		ul {
+			padding-left: 0;
+			margin-top: 2px;
 			li {
+				list-style-type: none;
+
 				a {
 					font-family: 'Exo', sans-serif;
 					font-weight: normal;
 					font-size: 14px;
 					line-height: 30px;
 					color: #282828;
-
+					text-decoration: none;
+					letter-spacing: 1px;
 				}
 			}
 		}
@@ -447,6 +458,8 @@ footer {
 	.about-us {
 		float: left;
 		width: 165px;
+		margin-top: 59px;
+		margin-left: 100px;
 
 		h3 {
 			font-family: 'Exo', sans-serif;
@@ -454,12 +467,33 @@ footer {
 			line-height: 50px;
 			color: #282828;
 			font-weight: 500;
+			letter-spacing: 1px;
+			margin-bottom: 0;
+		}
+		ul {
+			padding-left: 0;
+			margin-top: 2px;
+			li {
+				list-style-type: none;
+
+				a {
+					font-family: 'Exo', sans-serif;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 30px;
+					color: #282828;
+					text-decoration: none;
+					letter-spacing: 1px;
+				}
+			}
 		}
 	}
 
 	.letter {
 		float: left;
 		width: 277px;
+		margin-top: 60px;
+		margin-left: 26px;
 
 		h3 {
 			font-family: 'Exo', sans-serif;
@@ -467,11 +501,73 @@ footer {
 			line-height: 50px;
 			color: #282828;
 			font-weight: 500;
+			letter-spacing: 1px;
+			margin-bottom: 0;
+		}
+
+		form {
+			margin-top: 14px;
+			input {
+				font-family: 'Exo', sans-serif;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 39px;
+				color: #000000;
+				text-transform: uppercase;
+				background: #f6f6f6;
+				border: 1px solid #b8b8bf;
+				border-radius: 3px;
+				margin-left: 2px;
+				padding: 2px 11px 6px 28px;
+			}	
+
+			button {
+				background: #ff6d6d url(../img/send.png) no-repeat center;
+				padding: 28px 25px 21px 26px;
+				margin-top: 0px;
+				margin-left: -6px;
+				border-radius: 3px;
+				border: none;;
+			}
 		}
 	}
 
 	.social {
 		float: right;
+
+		ul {
+			margin-top: 4px;
+			margin-right: 49px;
+		}
+
+		li {
+				display: inline-block;
+				margin-right: 13px;
+		}
+
+		.social-btn {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			font-size: 0px;
+			margin-right: 9px;
+		}
+
+		.social-btn-dribb {
+			background: url(../img/dribbble.png) no-repeat center;
+		}
+
+		.social-btn-fb {
+			background: url(../img/facebook.png) no-repeat center;	
+		}
+
+		.social-btn-google {
+			background: url(../img/googleplus_S.png) no-repeat center;
+		}
+
+		.social-btn-tw {
+			background: url(../img/twitter.png) no-repeat center;
+		}
 	}
 }
 
